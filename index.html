@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>METALiST</title>
+    <link rel="icon" type="image/png" href="content/favicon.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta property="og:site_name" content="pawlenko.ru" />
+    <meta property="og:title" content="METALiST" />
+    <meta property="og:url" content="https://pawlenko.ru" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="My little corner on the internet." />
+    <meta property="og:image" content="https://pawlenko.ru/content/favicon.png" />
+    <style type="text/css">
+        * {
+        margin: 0;
+        padding: 0;
+        }
+        html,
+        body {
+        height: 100%;
+        }
+        .wrapper {
+        position: relative;
+        min-height: 100%;
+        }
+        .header {
+        position: absolute;
+        font-family: "Comic Sans MS";
+        }
+        .footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: -190%;
+        font-family: "Comic Sans MS";
+        }
+        .rainbow {
+        background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+        background-size: 400% 400%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: rainbow 20s ease infinite;
+        animation: rainbow 20s ease infinite;
+        }
+        @-webkit-keyframes rainbow {
+        0% { background-position: 0% 50% }
+        50% { background-position: 100% 50% }
+        100% { background-position: 0% 50% }
+        }
+        @keyframes rainbow {
+        0% { background-position: 0% 50% }
+        50% { background-position: 100% 50% }
+        100% { background-position: 0% 50% }
+        }
+        video {
+        position: fixed;
+        z-index: -1;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        }
+        .main {
+        position: fixed;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: "Comic Sans MS";
+        }
+        .grow:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+        </div>
+        <div class="content">
+            <div class="main">
+                <div>
+                    <p class="rainbow" style="font-size:140%">Be wary that some malicious/illegal sites redirect here.<br>If you were redirected here automatically - I don't own whatever redirected you.</p><br><br>
+                    <img src="content/avatar.png">
+                    <p class="rainbow" style="font-size:190%">METALiST</p><br><br>
+                </div>
+                <div>
+                    <script type="text/javascript">function discord(){return alert('\n\n\nMETALiST#6698\n\n\n')}</script><img onclick="discord()" class="grow" width="86" height="86" src="content/discord.png">
+                    <a href="http://4pda.to/forum/index.php?showuser=8922463" target="_blank"><img class="grow" width="86" height="86" src="content/4pane.png"></a>
+                    <a href="https://www.instagram.com/ihor__pavlenko" target="_blank"><img class="grow" width="86" height="86" src="content/instagram.png"></a>
+                    <a href="https://steamcommunity.com/id/ihor_pavlenko" target="_blank"><img class="grow" width="86" height="86" src="content/steam.png"></a>
+                    <a href="https://t.me/Pavlenko51" target="_blank"><img class="grow" width="86" height="86" src="content/telegram.png"></a>
+                    <a href="https://vk.com/ihor_pavlenko" target="_blank"><img class="grow" width="86" height="86" src="content/vk.png"></a>
+                    <a href="https://www.youtube.com/channel/UC8QnxKTtB92vpDH5dfomvnw" target="_blank"><img class="grow" width="86" height="86" src="content/youtube.png"></a>
+                    <a href="https://radio.pawlenko.ru" target="_blank"><img class="grow" width="86" height="86" src="content/mp3splt.png"></a>
+                    <a href="https://rpi.pawlenko.ru" target="_blank"><img class="grow" width="86" height="86" src="content/qqintl.png"></a>
+                    <script type="text/javascript">function mail(){return alert('\n\n\nihor@pawlenko.ru\n\n\n')}</script><img onclick="mail()" class="grow" width="86" height="86" src="content/kmail.png">
+                </div>
+            </div>
+            <video autoplay muted loop><source src="content/video.webm" type="video/webm" preload="auto"></video>
+            <audio autoplay hidden loop id="audio"><source src="content/audio.webm" type="audio/webm" preload="auto"></audio>
+            <script type="text/javascript">document.getElementById("audio").volume = 0.1;</script>
+        </div>
+        <div class="footer">
+            <p class="rainbow" style="font-size:130%">© METALiST - <script type="text/javascript">var d = new Date(); document.write(d.getFullYear());</script></p>
+        </div>
+    </div>
+</body>
+</html>
